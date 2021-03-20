@@ -30,6 +30,7 @@ public class Test implements CommandLineRunner{
 		StudentConfig  sc = cxt.getBean(StudentConfig.class);
 		sc.studentBean().setSno(100);
 		sc.studentBean().setSname("Ram");
+		sc.studentBean().setCity("Hyderabad");
 		sc.courseBean().setCid(10);
 		sc.courseBean().setCname("Python");
 		sc.courseBean().setFee(2000.98);

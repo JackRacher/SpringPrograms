@@ -7,7 +7,14 @@ public class Student {
 
 	private int sno;
 	private String sname;
+	private String city;
 	
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
 	public int getSno() {
 		return sno;
 	}
@@ -22,7 +29,7 @@ public class Student {
 	}
 	@Override
 	public String toString() {
-		return "Student [sno=" + sno + ", sname=" + sname + "]";
+		return "Student [sno=" + sno + ", sname=" + sname + ", city=" + city + "]";
 	}
 	
 	
